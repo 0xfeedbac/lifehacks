@@ -18,6 +18,7 @@ def project(im, an):
     pp = torch.zeros(p_len) # projected points
 
     # lookup table to project points to the destination position
+    # note: use torch.meshgrid for the 1st step in the future
     xdim = torch.arange(w).unsqueeze(0).repeat(h, 1).float()
     ydim = torch.arange(h).unsqueeze(1).repeat(1, w).float()
 
