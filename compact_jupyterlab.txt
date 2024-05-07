@@ -1,0 +1,8 @@
+In custom CSS page styles:
+
+.jp-Cell {
+ --jp-cell-padding: 4px;
+}
+.cm-line {
+ line-height: 1.1;
+}
