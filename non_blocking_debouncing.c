@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include <Arduino.h> // Tested on UNOv3 board
 
 // state machine
 enum DebounceState { IDLE, SAMPLING };
